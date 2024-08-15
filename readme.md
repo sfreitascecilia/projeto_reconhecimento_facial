@@ -1,3 +1,14 @@
+## Sobre o uso de face_recognition
+
+A biblioteca face_recognition usa uma abordagem diferente para o reconhecimento facial
+e não possui as mesmas funções de treinamento direto como o OpenCV. Em vez disso,
+ela usa embeddings faciais que são criados para cada face detectada.
+Embeddings faciais são representações vetoriais (ou numéricas) das características de uma face.
+Esses vetores são gerados por algoritmos de aprendizado de máquina e redes neurais
+para capturar as características únicas e discriminativas das faces,
+permitindo a comparação e reconhecimento entre diferentes rostos.
+
+
 Instalar dependências
 
     pip install matplotlib

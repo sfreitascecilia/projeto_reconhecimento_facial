@@ -12,7 +12,7 @@ def load_image_and_get_face_encodings(image_path):
 
 
 # Carregar a imagem de referência e obter a codificação facial
-known_face_image_path = "rosto_conhecido.jpg"  # Imagem de referência
+known_face_image_path = "rosto_conhecido_1.jpg"  # Imagem de referência
 known_face_encodings = load_image_and_get_face_encodings(known_face_image_path)
 
 # Iniciar a captura de vídeo da câmera
